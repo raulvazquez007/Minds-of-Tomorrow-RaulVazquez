@@ -13,16 +13,14 @@ body {
     justify-content: center;
 }
 .hero h1 {
-    font-size: 2em;
+    font-size: 100px;
     margin-bottom: 10px;
 }
-.hero p {
-    font-size: 1.2em;
-    color: #555;
-}
+
+
 .hero-img {
     width: 80%;
-    max-width: 400px;
+   
     margin-top: 20px;
 }
 .info {
@@ -34,6 +32,13 @@ body {
     font-size: 1.8em;
     margin-bottom: 20px;
 }
+
+#h1p{
+    color: black;
+    font-size: 50px;
+
+}
+
 .info .images {
     display: grid;
     justify-items: center;
@@ -64,24 +69,16 @@ body {
     max-width: 400px;
 
 }
-.extra-images {
-    display: grid;
-    flex-wrap: wrap;
-    grid-template-columns: repeat(2, 2fr);
-    justify-content: center;
-    padding: 40px 20px;
-    background: #f4f4f4;
-}
 .extra-images img {
     width: 100%;
             min-width: 150px;
             height: auto;
 }
-.footer {
+.footerazul{
     background: #1565C0;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 20px;
-    font-size: 1.1em;
+    font-size: 40px;
 }
 @media (min-width: 700px) {
     .hero {
@@ -92,9 +89,7 @@ body {
     .hero-text {
         max-width: 50%;
     }
-    .extra-images {
-        grid-template-columns: repeat(4, 1fr);
-    }
+   
     .studio {
         flex-direction: row;
         text-align: left;
@@ -103,5 +98,36 @@ body {
     }
     .studio-text {
         max-width: 50%;
-    }
+
+    } 
+}
+
+#img3{
+    width: 80%;
+    margin-top: 25px;
+}
+#h6d{
+    color: black;
+    font-size: 15px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color:black; 
+    color: white;
+}
+
+.footer-container div {
+    flex: 1;
+}
+
+#img5{
+    width: 25%;
+    margin: 0;
+    padding: 0;
+    
 }
