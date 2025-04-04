@@ -1,0 +1,90 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .hero {
+            background: white;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .hero h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 1.2em;
+            color: #555;
+        }
+        .hero-img {
+            width: 80%;
+            max-width: 400px;
+            margin-top: 20px;
+        }
+        .info {
+            padding: 40px 20px;
+            background: #e3f2fd;
+        }
+        .info .images {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .info img {
+            width: 100px;
+            border-radius: 10px;
+        }
+        .studio {
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .studio h2 {
+            font-size: 1.8em;
+        }
+        .studio p {
+            font-size: 1.2em;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .studio-img {
+            width: 80%;
+            max-width: 400px;
+        }
+        .footer {
+            background: #333;
+            color: white;
+            padding: 20px;
+            font-size: 1.1em;
+        }
+        @media (min-width: 700px) {
+            .hero {
+                flex-direction: row;
+                justify-content: space-around;
+                text-align: left;
+            }
+            .hero-text {
+                max-width: 50%;
+            }
+            .info .images {
+                justify-content: space-evenly;
+            }
+            .studio {
+                flex-direction: row;
+                text-align: left;
+                justify-content: center;
+                align-items: center;
+            }
+            .studio-text {
+                max-width: 50%;
+            }
+        }
