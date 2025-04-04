@@ -36,8 +36,6 @@ body {
 }
 .info .images {
     display: grid;
-    grid-template-columns: repeat(2, 2fr);
-    gap: 10px;
     justify-items: center;
 }
 .info img {
@@ -93,9 +91,6 @@ body {
     }
     .hero-text {
         max-width: 50%;
-    }
-    .info .images {
-        grid-template-columns: repeat(4, 1fr)
     }
     .extra-images {
         grid-template-columns: repeat(4, 1fr);
